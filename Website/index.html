@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Automatic Form Securing and Collecting machine </title>
+        <meta name ="viewport" content ="width=device-width, initial-scale =1">
+        <link rel="stylesheet" href ="style.css">
+        <link rel="stylesheet" href ="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <section id ="banner">
+        <img src="images/Technocrats logo2.png" class="logo">
+        <div class="banner-text">
+            <h1>AFSC</h1>
+            <h3>(Automatic Form Securing and Collecting Machine)</h3>
+            <p>Filling those irksome forms at your Convenience!!</p>
+            <div class="banner-btn">
+                <a href ="#Forms"><span></span> Find Forms </a>
+                <a href ="#"><span></span> Read more </a>
+            
+            </div>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Meet us</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    <div id="manubtn">
+        <img src="images/icons8-menu-40.png" id="menu">
+    
+    </div>
+    <!--feature-->
+    <a id="Forms"></a>
+    <section id="feature">
+        <div class="title-text">
+            <p>AFSC</p>
+            <h1>List of Forms Available At The Moment </h1>
+        </div>
+        <div class="feature-box">
+            <div class ="features">
+                <h1>A/c Opening Debit RTGS(Vijaya Bank)</h1>    
+                <div class="features-desc">
+                <div class="feature-icon">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                </div>
+                <div class="feature-text">
+                    <p>The term real-time gross settlement (RTGS) refers to a funds transfer system that allows for the instantaneous transfer of money and/or securities. RGTS is the continuous process of settling payments on an individual order basis without netting debits with credits across the books of a central bank.So to download the form click below:</p>
+                    <a href="images/NEFT%20RTGS%20C.pdf" target="_blank">Application for National Electronic Fund Transfer / Real Time Gross Settlement System (NEFT/RTGS)</a>
+            </div>
+                    </div>
+                
+                <h1>Saving Bank Account Opening Form(Vijaya Bank)</h1>    
+                <div class="features-desc">
+                <div class="feature-icon">
+                <i class="fa fa-pencil" aria-hidden="true"></i>
+                </div>
+                <div class="feature-text">
+                    <p>A savings account is a basic type of bank account that allows you to deposit money, keep it safe, and withdraw funds, all while earning interest. Savings accounts offered by most banks, credit unions, and other financial institutions are FDIC insured and typically pay interest on your deposits.So to download the form click below:</p>
+                    <a href="images/Vijaya%20Bank%20Application%20Form%202-526%20Final.pdf" target="_blank">Saving Bank Account Opening Form - II 526</a>
+            </div>
+                    </div>
+            </div>
+            
+            <div class ="features-img">
+                <img src ="images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg">
+            </div>
+        </div>
+    </section>
+    <!--Service   --> 
+    <section id="service">
+    <div class="title-text">
+            <p>Technologies Used</p>
+            <h1>How we make it contact-less !!</h1>
+        </div>
+    
+    
+    </section>
+    
+
+    <script>
+        var manubtn = document.getElementById("manubtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        
+        sideNav.style.right ="-250px"
+        manubtn.onclick= function(){
+            if(sideNav.style.right =="-250px"){
+                sideNav.style.right="0";
+            }
+            else{
+                sideNav.style.right="-250px";
+            }
+        }
+        
+    </script>
+</body>
+</html>
